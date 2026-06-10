@@ -181,4 +181,42 @@
     right: 0;
     border-right-color: var(--border);
   }
+}  
+
+.btn-voltar {
+  display: inline-block;
+  margin: 10px auto 0 auto; 
+  padding: 7px 14px; 
+  border-radius: 5px; 
+  border: none; 
+  background-color: #ffb6c1;
+  font-weight: bold;
+  cursor: pointer;
+
+
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
+
+
+.btn-voltar:hover {
+  background-color: #f7d4df;
+}
+
+/* Ajuste para não quebrar o layout do card */
+.flip-card {
+  position: relative;
+}
+
+.flip-card .btn-voltar {
+  width: 90%;
+}
+
+
+
+
+
+
+

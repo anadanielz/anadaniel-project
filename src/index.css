@@ -6,7 +6,7 @@ body {
 
   min-height: 100vh;
 
-  background-image: url('/src/assets/background.jpg');
+  background-image: url('/src/assets/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,12 +32,12 @@ body {
 /* área dos cards */
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  justify-items: center;
 }
+
 
 /* card */
 
@@ -154,12 +154,12 @@ body {
   display: block;
 
   width: 100%;
-  max-width: 1200px;
-  margin: 25px auto 0;
+  max-width: 900px;
+  margin: 20px auto 0;
 
   text-align: center;
 
-  padding: 15px 20px;
+  padding: 15px 15px;
 
   background: linear-gradient(135deg, #f1cfa7, #ffb6e6);
 
