@@ -27,14 +27,6 @@ function Sanrio() {
   temBotao={true}
 />
 
-<a
-        href="https://www.sanrio.com.br/"
-        target="_blank"
-        className="sanrio-btn"
-        >
-        Gostaria de ver o aniversário de outros personagens? Clique aqui!
-        </a>
-
 </div>
 
     );
